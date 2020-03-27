@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.vivoweb</groupId>
+    <artifactId>vivo-installer-i18n</artifactId>
+    <version>1.11.0</version>
+  </parent>
+  <groupId>org.vivoweb</groupId>
+  <artifactId>webapp_dep</artifactId>
+  <version>1.11.0</version>
+  <name>webapp_dep</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>../../Vitro/dependencies</module>
+  	<module>../../Vitro/api</module>
+  	<module>../../Vitro/webapp</module>
+  	<module>../../Vitro-Languages/webapp</module>
+  	<module>../../VIVO/api</module>
+  	<module>../../VIVO/webapp</module>
+  	<module>../../Vivo-Languages/webapp</module>
+  </modules>
+</project>
