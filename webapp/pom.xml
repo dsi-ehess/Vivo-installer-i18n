@@ -5,13 +5,13 @@
 
 	<groupId>org.vivoweb</groupId>
 	<artifactId>vivo-installer-vivo</artifactId>
-	<version>1.11.0</version>
+	<version>1.11.2-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<parent>
 		<groupId>org.vivoweb</groupId>
 		<artifactId>vivo-installer-i18n</artifactId>
-		<version>1.11.0</version>
+		<version>1.11.2-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>
 
@@ -158,13 +158,13 @@
 		<dependency>
 			<groupId>org.vivoweb</groupId>
 			<artifactId>vitro-languages-webapp</artifactId>
-			<version>1.11.0</version>
+			<version>1.11.2-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.vivoweb</groupId>
 			<artifactId>vivo-languages-webapp</artifactId>
-			<version>1.11.0</version>
+			<version>1.11.2-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
 

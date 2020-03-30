@@ -5,11 +5,11 @@
   <parent>
     <groupId>org.vivoweb</groupId>
     <artifactId>vivo-installer-i18n</artifactId>
-    <version>1.11.0</version>
+    <version>1.11.2-SNAPSHOT</version>
   </parent>
   <groupId>org.vivoweb</groupId>
   <artifactId>webapp_dep</artifactId>
-  <version>1.11.0</version>
+  <version>1.11.2-SNAPSHOT</version>
   <name>webapp_dep</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -17,12 +17,18 @@
   </properties>
   <packaging>pom</packaging>
   <modules>
-  	<module>../../Vitro/dependencies</module>
-  	<module>../../Vitro/api</module>
-  	<module>../../Vitro/webapp</module>
-  	<module>../../Vitro-Languages/webapp</module>
-  	<module>../../VIVO/api</module>
-  	<module>../../VIVO/webapp</module>
-  	<module>../../Vivo-Languages/webapp</module>
+<!--  
+	Faire attention au nom des répertoires, ils doivennt correspondre à l'emplacement de l'extraction du Vitro project et VIVO Project
+	Pay attention to the name of the directories, they must correspond to the extraction location of the Vitro project and VIVO Project.
+-->
+  	<module>../../Vitro-1/api</module>
+  	<module>../../Vitro-1/dependencies</module>
+  	<module>../../Vitro-1/webapp</module>
+  	
+  	<module>../../Vitro-languages/webapp</module>
+  	<module>../../VIVO-1/api</module>
+  	<module>../../VIVO-1/webapp</module>
+  	
+  	<module>../../VIVO-languages/webapp</module>
   </modules>
 </project>

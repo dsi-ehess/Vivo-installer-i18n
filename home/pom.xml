@@ -11,7 +11,7 @@
     <parent>
         <groupId>org.vivoweb</groupId>
         <artifactId>vivo-installer-i18n</artifactId>
-        <version>1.11.0</version>
+        <version>1.11.2-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
@@ -103,22 +103,22 @@
         <dependency>
             <groupId>org.vivoweb</groupId>
             <artifactId>vivo-home</artifactId>
-                <version>1.11.0</version>
+                <version>1.11.2-SNAPSHOT</version>
             <type>tar.gz</type>
         </dependency>
         <!-- Dependency for multilingual support -->
         <dependency>
             <groupId>org.vivoweb</groupId>
             <artifactId>vivo-languages-home</artifactId>
-            <version>1.11.0</version>
+            <version>1.11.2-SNAPSHOT</version>
             <type>tar.gz</type>
         </dependency>
     </dependencies>
     <groupId>org.vivoweb</groupId>
-    <version>1.11.0</version>
+    <version>1.11.2-SNAPSHOT</version>
     <modules>
-    	<module>../../Vitro/home</module>
-    	<module>../../VIVO/home</module>
+    	<module>../../Vitro-1/home</module>
+    	<module>../../VIVO-1/home</module>
     	<module>../../Vivo-Languages/home</module>
     </modules>
 </project>
