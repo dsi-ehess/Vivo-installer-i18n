@@ -1,34 +1,46 @@
 <?xml version="1.0"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>org.vivoweb</groupId>
-    <artifactId>vivo-installer-i18n</artifactId>
-    <version>1.11.2-SNAPSHOT</version>
-  </parent>
-  <groupId>org.vivoweb</groupId>
-  <artifactId>webapp_dep</artifactId>
-  <version>1.11.2-SNAPSHOT</version>
-  <name>webapp_dep</name>
-  <url>http://maven.apache.org</url>
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-  <packaging>pom</packaging>
-  <modules>
-<!--  
-	Faire attention au nom des répertoires, ils doivennt correspondre à l'emplacement de l'extraction du Vitro project et VIVO Project
-	Pay attention to the name of the directories, they must correspond to the extraction location of the Vitro project and VIVO Project.
--->
-  	<module>../../Vitro-1/api</module>
-  	<module>../../Vitro-1/dependencies</module>
-  	<module>../../Vitro-1/webapp</module>
-  	
-  	<module>../../Vitro-languages/webapp</module>
-  	<module>../../VIVO-1/api</module>
-  	<module>../../VIVO-1/webapp</module>
-  	
-  	<module>../../VIVO-languages/webapp</module>
-  </modules>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.vivoweb</groupId>
+		<artifactId>vivo-installer-i18n</artifactId>
+		<version>1.11.2-SNAPSHOT</version>
+	</parent>
+	<groupId>org.vivoweb</groupId>
+	<artifactId>webapp_dep</artifactId>
+	<version>1.11.2-SNAPSHOT</version>
+	<name>webapp_dep</name>
+	<url>http://maven.apache.org</url>
+	<developers>
+		<developer>
+			<name>Michel Héon PhD</name>
+			<email>contact@cotechnoe.com</email>
+			<organization>Cotechnoe</organization>
+			<organizationUrl>https://cotechnoe.com/</organizationUrl>
+		</developer>
+	</developers>
+	<organization>
+		<name>Université du Québec à Montréal (QC) Canada</name>
+		<url>https://uqam.ca</url>
+	</organization>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<packaging>pom</packaging>
+	<modules>
+		<!-- Faire attention au nom des répertoires, ils doivennt correspondre 
+			à l'emplacement de l'extraction du Vitro project et VIVO Project Pay attention 
+			to the name of the directories, they must correspond to the extraction location 
+			of the Vitro project and VIVO Project. -->
+		<module>../../Vitro/api</module>
+		<module>../../Vitro/dependencies</module>
+		<module>../../Vitro/webapp</module>
+		<module>../../Vitro-languages/webapp</module>
+		<module>../../VIVO/api</module>
+		<module>../../VIVO/webapp</module>
+		<module>../../VIVO-languages/webapp</module>
+	</modules>
 </project>

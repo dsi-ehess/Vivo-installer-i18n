@@ -9,6 +9,18 @@
 	<packaging>pom</packaging>
 
 	<name>VIVO Installer</name>
+	<developers>
+		<developer>
+			<name>Michel Héon PhD</name>
+			<email>contact@cotechnoe.com</email>
+			<organization>Cotechnoe</organization>
+			<organizationUrl>https://cotechnoe.com/</organizationUrl>
+		</developer>
+	</developers>
+	<organization>
+		<name>Université du Québec à Montréal (QC) Canada</name>
+		<url>https://uqam.ca</url>
+	</organization>
 
 	<properties>
 		<vitro-version>${project.version}</vitro-version>

@@ -16,6 +16,18 @@
 	</parent>
 
 	<name>VIVO Install Web App for i18n</name>
+	<developers>
+		<developer>
+			<name>Michel Héon PhD</name>
+			<email>contact@cotechnoe.com</email>
+			<organization>Cotechnoe</organization>
+			<organizationUrl>https://cotechnoe.com/</organizationUrl>
+		</developer>
+	</developers>
+	<organization>
+		<name>Université du Québec à Montréal (QC) Canada</name>
+		<url>https://uqam.ca</url>
+	</organization>
 
 	<profiles>
 		<profile>
