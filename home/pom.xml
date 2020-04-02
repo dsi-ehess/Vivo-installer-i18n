@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>vitro-installer-home</artifactId>
+	<artifactId>vitro-installer-home-i18n</artifactId>
 	<packaging>pom</packaging>
 
 	<parent>
@@ -22,7 +22,7 @@
 	<modules>
 		<module>../../Vitro/home</module>
 		<module>../../VIVO/home</module>
-		<module>../../VIVO-languages/home</module>
+		
 	</modules>
 
 	<profiles>

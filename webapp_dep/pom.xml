@@ -38,9 +38,16 @@
 		<module>../../Vitro/api</module>
 		<module>../../Vitro/dependencies</module>
 		<module>../../Vitro/webapp</module>
-		<module>../../Vitro-languages/webapp</module>
+		<module>../../Vitro-languages/fr_CA/webapp</module>
+		<module>../../Vitro-languages/en_US/webapp</module>
+		<module>../../Vitro-languages/de_DE/webapp</module>
 		<module>../../VIVO/api</module>
 		<module>../../VIVO/webapp</module>
-		<module>../../VIVO-languages/webapp</module>
+		<module>../../VIVO-languages/fr_CA/home</module>
+		<module>../../VIVO-languages/en_US/home</module>
+		<module>../../VIVO-languages/de_DE/home</module>
+		<module>../../VIVO-languages/fr_CA/webapp</module>
+		<module>../../VIVO-languages/en_US/webapp</module>
+		<module>../../VIVO-languages/de_DE/webapp</module>
 	</modules>
 </project>
