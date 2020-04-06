@@ -26,11 +26,12 @@
 		<vitro-version>${project.version}</vitro-version>
 		<maven-site-plugin.skip>true</maven-site-plugin.skip>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.test.skip>true</maven.test.skip>
 	</properties>
 	<modules>
+		<module>home</module>
 		<module>webapp_dep</module>
 		<module>webapp</module>
-		<module>home</module>
 	</modules>
 
 	<build>

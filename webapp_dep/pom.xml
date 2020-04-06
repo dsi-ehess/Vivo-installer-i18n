@@ -11,7 +11,7 @@
 	<groupId>org.vivoweb</groupId>
 	<artifactId>webapp_dep</artifactId>
 	<version>1.11.2-SNAPSHOT</version>
-	<name>webapp_dep</name>
+	<name>VIVO WebApp Install dependencies for i18n</name>
 	<url>http://maven.apache.org</url>
 	<developers>
 		<developer>
@@ -31,7 +31,7 @@
 	</properties>
 	<packaging>pom</packaging>
 	<modules>
-		<!-- Faire attention au nom des répertoires, ils doivennt correspondre 
+		<!-- Faire attention au nom des répertoires, ils doivent correspondre 
 			à l'emplacement de l'extraction du Vitro project et VIVO Project Pay attention 
 			to the name of the directories, they must correspond to the extraction location 
 			of the Vitro project and VIVO Project. -->

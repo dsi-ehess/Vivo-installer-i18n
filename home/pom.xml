@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>vitro-installer-home-i18n</artifactId>
+	<artifactId>vivo-installer-home-i18n</artifactId>
 	<packaging>pom</packaging>
 
 	<parent>
@@ -113,12 +113,6 @@
 			<type>tar.gz</type>
 		</dependency>
 		<!-- Dependency for multilingual support -->
-		<dependency>
-			<groupId>org.vivoweb</groupId>
-			<artifactId>vivo-languages-home</artifactId>
-			<version>1.11.2-SNAPSHOT</version>
-			<type>tar.gz</type>
-		</dependency>
 	</dependencies>
 	<groupId>org.vivoweb</groupId>
 	<version>1.11.2-SNAPSHOT</version>
