@@ -4,6 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>vivo-installer-home-i18n</artifactId>
+	<groupId>org.vivoweb</groupId>
+	<version>1.11.2-SNAPSHOT</version>
+
 	<packaging>pom</packaging>
 
 	<parent>
@@ -22,7 +25,10 @@
 	<modules>
 		<module>../../Vitro/home</module>
 		<module>../../VIVO/home</module>
-		
+		<module>../../VIVO-languages/fr_CA/home</module>
+		<module>../../VIVO-languages/en_US/home</module>
+		<module>../../VIVO-languages/de_DE/home</module>
+
 	</modules>
 
 	<profiles>
@@ -113,7 +119,11 @@
 			<type>tar.gz</type>
 		</dependency>
 		<!-- Dependency for multilingual support -->
+		<dependency>
+			<groupId>org.vivoweb</groupId>
+			<artifactId>vivo-languages-home-fr_CA</artifactId>
+			<version>1.11.2-SNAPSHOT</version>
+			<type>tar.gz</type>
+		</dependency>
 	</dependencies>
-	<groupId>org.vivoweb</groupId>
-	<version>1.11.2-SNAPSHOT</version>
 </project>

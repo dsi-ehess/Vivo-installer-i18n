@@ -43,9 +43,6 @@
 		<module>../../Vitro-languages/de_DE/webapp</module>
 		<module>../../VIVO/api</module>
 		<module>../../VIVO/webapp</module>
-		<module>../../VIVO-languages/fr_CA/home</module>
-		<module>../../VIVO-languages/en_US/home</module>
-		<module>../../VIVO-languages/de_DE/home</module>
 		<module>../../VIVO-languages/fr_CA/webapp</module>
 		<module>../../VIVO-languages/en_US/webapp</module>
 		<module>../../VIVO-languages/de_DE/webapp</module>

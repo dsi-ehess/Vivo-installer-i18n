@@ -57,16 +57,16 @@
 									<type>war</type>
 								</overlay>
 								<!-- Overlays for multilingual support -->
-								<overlay>
-									<groupId>org.vivoweb</groupId>
-									<artifactId>vitro-languages-webapp</artifactId>
-									<type>war</type>
-								</overlay>
-								<overlay>
-									<groupId>org.vivoweb</groupId>
-									<artifactId>vivo-languages-webapp</artifactId>
-									<type>war</type>
-								</overlay>
+								<!-- <overlay> -->
+								<!-- <groupId>org.vivoweb</groupId> -->
+								<!-- <artifactId>vitro-languages-webapp-fr_CA</artifactId> -->
+								<!-- <type>war</type> -->
+								<!-- </overlay> -->
+								<!-- <overlay> -->
+								<!-- <groupId>org.vivoweb</groupId> -->
+								<!-- <artifactId>vivo-languages-webapp-fr_CA</artifactId> -->
+								<!-- <type>war</type> -->
+								<!-- </overlay> -->
 							</overlays>
 							<webResources>
 								<resource>
@@ -169,11 +169,16 @@
 		<!-- Dependencies for multilingual support -->
 		<dependency>
 			<groupId>org.vivoweb</groupId>
-			<artifactId>vitro-languages-webapp</artifactId>
+			<artifactId>vitro-languages-webapp-fr_CA</artifactId>
 			<version>1.11.2-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
-
+		<dependency>
+			<groupId>org.vivoweb</groupId>
+			<artifactId>vivo-languages-webapp-fr_CA</artifactId>
+			<version>1.11.2-SNAPSHOT</version>
+			<type>war</type>
+		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
@@ -187,4 +192,18 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.vivoweb</groupId>
+				<artifactId>vivo-webapp</artifactId>
+				<version>1.11.2-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>org.vivoweb</groupId>
+				<artifactId>vivo-home</artifactId>
+				<version>1.11.2-SNAPSHOT</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>
