@@ -27,6 +27,7 @@
         <module>../../VIVO/home</module>
         <module>../../VIVO-languages/core/home</module>
         <module>../../VIVO-languages/en_US/home</module>
+        <module>../../VIVO-languages/en_CA/home</module>
         <module>../../VIVO-languages/de_DE/home</module>
         <module>../../VIVO-languages/es/home</module>
         <module>../../VIVO-languages/pt_BR/home</module>
@@ -137,6 +138,12 @@
         <dependency>
             <groupId>org.vivoweb</groupId>
             <artifactId>vivo-languages-home-en_US</artifactId>
+            <version>1.11.2-SNAPSHOT</version>
+            <type>tar.gz</type>
+        </dependency>
+        <dependency>
+            <groupId>org.vivoweb</groupId>
+            <artifactId>vivo-languages-home-en_CA</artifactId>
             <version>1.11.2-SNAPSHOT</version>
             <type>tar.gz</type>
         </dependency>
