@@ -218,6 +218,18 @@
         </dependency>
         <dependency>
             <groupId>org.vivoweb</groupId>
+            <artifactId>vitro-languages-webapp-fr_FR</artifactId>
+            <version>1.11.2-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>org.vivoweb</groupId>
+            <artifactId>vivo-languages-webapp-fr_FR</artifactId>
+            <version>1.11.2-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>org.vivoweb</groupId>
             <artifactId>vitro-languages-webapp-es</artifactId>
             <version>1.11.2-SNAPSHOT</version>
             <type>war</type>

@@ -32,7 +32,7 @@
         <module>../../VIVO-languages/es/home</module>
         <module>../../VIVO-languages/pt_BR/home</module>
         <module>../../VIVO-languages/fr_CA/home</module>
-
+        <module>../../VIVO-languages/fr_FR/home</module>
     </modules>
 
     <profiles>
@@ -156,6 +156,12 @@
         <dependency>
             <groupId>org.vivoweb</groupId>
             <artifactId>vivo-languages-home-fr_CA</artifactId>
+            <version>1.11.2-SNAPSHOT</version>
+            <type>tar.gz</type>
+        </dependency>
+        <dependency>
+            <groupId>org.vivoweb</groupId>
+            <artifactId>vivo-languages-home-fr_FR</artifactId>
             <version>1.11.2-SNAPSHOT</version>
             <type>tar.gz</type>
         </dependency>
