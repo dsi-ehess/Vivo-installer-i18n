@@ -58,11 +58,11 @@
         <module>../../VIVO-languages/es/webapp</module>
         <module>../../VIVO-languages/pt_BR/webapp</module>
         <module>../../VIVO-languages-EHESS/webapp</module>
-        <module>../../Vitro-fr_FR/webapp</module>
+        <!--module>../../Vitro-fr_FR/webapp</module>
         <module>../../Vitro-EHESS/webapp</module>
         <module>../../VIVO-fr_FR/api</module>
         <module>../../VIVO-EHESS/api</module>
         <module>../../VIVO-fr_FR/webapp</module>
-        <module>../../VIVO-EHESS/webapp</module>
+        <module>../../VIVO-EHESS/webapp</module-->
     </modules>
 </project>

@@ -51,7 +51,17 @@
                             </archive>
                             <archiveClasses>false</archiveClasses>
                             <overlays>
+                            <!-- Overlays for multilingual support -->
                                 <overlay>
+                                <groupId>org.vivoweb</groupId>
+                                <artifactId>vitro-languages-webapp-EHESS</artifactId>
+                                <type>war</type>
+                                </overlay>
+                                <overlay>
+                                <groupId>org.vivoweb</groupId>
+                                <artifactId>vivo-languages-webapp-EHESS</artifactId>
+                            	</overlay>
+                                <!-- overlay>
                                   <groupId>org.vivoweb</groupId>
                                   <artifactId>vivo-webapp-EHESS</artifactId>
                                   <type>war</type>
@@ -70,7 +80,8 @@
                                     <groupId>org.vivoweb</groupId>
                                     <artifactId>vitro-webapp-fr_FR</artifactId>
                                     <type>war</type>
-                                </overlay>
+                                </overlay-->
+                                
                                 <overlay>
                                     <groupId>org.vivoweb</groupId>
                                     <artifactId>vivo-webapp</artifactId>
@@ -178,7 +189,7 @@
     </build>
 
     <dependencies>
-		<dependency>
+		<!--dependency>
 		    <groupId>org.vivoweb</groupId>
 		    <artifactId>vitro-webapp-EHESS</artifactId>
 		    <version>1.11.2-SNAPSHOT</version>
@@ -189,25 +200,25 @@
 		    <artifactId>vitro-webapp-fr_FR</artifactId>
 		    <version>1.11.2-SNAPSHOT</version>
 		    <type>war</type>
-		</dependency>
+		</dependency-->
         <dependency>
             <groupId>org.vivoweb</groupId>
             <artifactId>vivo-api</artifactId>
         </dependency>
-        <dependency>
+        <!--dependency>
             <groupId>org.vivoweb</groupId>
             <artifactId>vivo-api-fr_FR</artifactId>
         </dependency>
         <dependency>
             <groupId>org.vivoweb</groupId>
             <artifactId>vivo-api-EHESS</artifactId>
-        </dependency>
+        </dependency-->
         <dependency>
             <groupId>org.vivoweb</groupId>
             <artifactId>vivo-webapp</artifactId>
             <type>war</type>
         </dependency>
-        <dependency>
+        <!--dependency>
             <groupId>org.vivoweb</groupId>
             <artifactId>vivo-webapp-fr_FR</artifactId>
             <type>war</type>
@@ -216,7 +227,7 @@
             <groupId>org.vivoweb</groupId>
             <artifactId>vivo-webapp-EHESS</artifactId>
             <type>war</type>
-        </dependency>
+        </dependency-->
         <!-- Dependencies for multilingual support -->
         <dependency>
             <groupId>org.vivoweb</groupId>

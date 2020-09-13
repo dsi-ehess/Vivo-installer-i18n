@@ -25,8 +25,8 @@
     <modules>
         <module>../../Vitro/home</module>
         <module>../../VIVO/home</module>
-        <module>../../VIVO-fr_FR/home</module>
-        <module>../../VIVO-EHESS/home</module>
+        <!-- module>../../VIVO-fr_FR/home</module>
+        <module>../../VIVO-EHESS/home</module-->
         <module>../../VIVO-languages/core/home</module>
         <module>../../VIVO-languages/en_US/home</module>
         <module>../../VIVO-languages/en_CA/home</module>
@@ -125,7 +125,7 @@
             <version>1.11.2-SNAPSHOT</version>
             <type>tar.gz</type>
         </dependency>
-        <dependency>
+        <!--dependency>
             <groupId>org.vivoweb</groupId>
             <artifactId>vivo-home-fr_FR</artifactId>
             <version>1.11.2-SNAPSHOT</version>
@@ -136,7 +136,7 @@
             <artifactId>vivo-home-EHESS</artifactId>
             <version>1.11.2-SNAPSHOT</version>
             <type>tar.gz</type>
-        </dependency>
+        </dependency-->
         <!-- Dependency for multilingual support -->
         <dependency>
             <groupId>org.vivoweb</groupId>
