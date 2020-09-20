@@ -119,9 +119,10 @@
     </build>
 
     <dependencies>
-        <dependency>
+    	<!--  Order is important -->
+       	<dependency>
             <groupId>org.vivoweb</groupId>
-            <artifactId>vivo-home</artifactId>
+            <artifactId>vivo-home-EHESS</artifactId>
             <version>1.11.2-SNAPSHOT</version>
             <type>tar.gz</type>
         </dependency>
@@ -133,7 +134,7 @@
         </dependency>
         <dependency>
             <groupId>org.vivoweb</groupId>
-            <artifactId>vivo-home-EHESS</artifactId>
+            <artifactId>vivo-home</artifactId>
             <version>1.11.2-SNAPSHOT</version>
             <type>tar.gz</type>
         </dependency>
