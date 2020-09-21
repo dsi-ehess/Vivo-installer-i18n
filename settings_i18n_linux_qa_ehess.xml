@@ -6,9 +6,9 @@
 			<id>defaults</id>
 			<properties>
 				<app-name>vivo</app-name>
-				<vivo-dir>/opt/vivo/home</vivo-dir>
-				<tomcat-dir>/opt/vivo/home/tomcat8<</tomcat-dir>
-				<default-theme>wilma</default-theme>
+				<vivo-dir>/var/lib/jenkins/VIVO_EHESS_i18n/home</vivo-dir>
+				<tomcat-dir>/var/lib/jenkins/VIVO_EHESS_i18n/tomcat8</tomcat-dir>
+				<default-theme>ehess</default-theme>
 			</properties>
 		</profile>
 	</profiles>
