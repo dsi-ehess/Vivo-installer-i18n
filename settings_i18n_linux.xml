@@ -5,9 +5,9 @@
 		<profile>
 			<id>defaults</id>
 			<properties>
-				<app-name>vivo_i18n</app-name>
-				<vitro-dir>/opt/tomcat/vivo_i18n/home</vitro-dir>
-				<tomcat-dir>/opt/tomcat</tomcat-dir>
+				<app-name>vivo</app-name>
+				<vivo-dir>/Users/fabien/uqam_dev/Eclipse.app/Contents/Eclipse/vivo/home</vivo-dir>
+				<tomcat-dir>/Users/fabien/uqam_dev/Eclipse.app/Contents/Eclipse/apache-tomcat-8.5.11</tomcat-dir>
 				<default-theme>wilma</default-theme>
 			</properties>
 		</profile>
