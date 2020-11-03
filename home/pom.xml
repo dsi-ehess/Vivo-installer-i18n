@@ -132,12 +132,6 @@
             <version>1.11.2-SNAPSHOT</version>
             <type>tar.gz</type>
         </dependency>
-        <dependency>
-            <groupId>org.vivoweb</groupId>
-            <artifactId>vivo-home</artifactId>
-            <version>1.11.2-SNAPSHOT</version>
-            <type>tar.gz</type>
-        </dependency>
         <!-- Dependency for multilingual support -->
         <dependency>
             <groupId>org.vivoweb</groupId>
