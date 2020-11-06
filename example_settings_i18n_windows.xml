@@ -6,7 +6,7 @@
 			<id>defaults</id>
 			<properties>
 				<app-name>vivo</app-name>
-				<vitro-dir>C:/vivo/home</vitro-dir>
+				<vivo-dir>C:/vivo/home</vivo-dir>
 				<tomcat-dir>C:/apache-tomcat</tomcat-dir>
 				<default-theme>wilma</default-theme>
 			</properties>
