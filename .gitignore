@@ -22,3 +22,4 @@ utilities/rdbmigration/.work
 **/.classpath
 **/.project
 **/bin/
+/settings*dev*.xml
