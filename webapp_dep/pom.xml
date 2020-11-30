@@ -40,7 +40,7 @@
         <module>../../Vitro/webapp</module>
         <module>../../Vitro-languages/core/webapp</module>
         <module>../../Vitro-languages/fr_CA/webapp</module>
-        <module>../../Vitro-languages/fr_FR/webapp</module>
+        <module>../../Vitro-languages/fr/webapp</module>
         <module>../../Vitro-languages/en_US/webapp</module>
         <module>../../Vitro-languages/en_CA/webapp</module>
         <module>../../Vitro-languages/de_DE/webapp</module>

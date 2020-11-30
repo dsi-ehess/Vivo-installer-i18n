@@ -77,7 +77,7 @@
                                   <type>war</type>
                                 </overlay>
                                 <overlay>
-                                    <groupId>org.vivoweb</groupId>
+                                    <groupId>fr.ehess</groupId>
                                     <artifactId>vitro-webapp-fr_FR</artifactId>
                                     <type>war</type>
                                 </overlay>
@@ -189,7 +189,7 @@
 
     <dependencies>
 		<dependency>
-		    <groupId>org.vivoweb</groupId>
+		    <groupId>fr.ehess</groupId>
 		    <artifactId>vitro-webapp-fr_FR</artifactId>
 		    <version>1.11.2-SNAPSHOT</version>
 		    <type>war</type>
@@ -280,7 +280,7 @@
         </dependency>
         <dependency>
             <groupId>org.vivoweb</groupId>
-            <artifactId>vitro-languages-webapp-fr_FR</artifactId>
+            <artifactId>vitro-languages-webapp-fr</artifactId>
             <version>1.11.2-SNAPSHOT</version>
             <type>war</type>
         </dependency>
