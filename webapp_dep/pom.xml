@@ -46,6 +46,7 @@
         <module>../../Vitro-languages/de_DE/webapp</module>
         <module>../../Vitro-languages/es/webapp</module>
         <module>../../Vitro-languages/pt_BR/webapp</module>
+        <module>../../Vitro-languages_fr_FR/fr_FR/webapp/</module>
         <module>../../Vitro-languages-EHESS/webapp</module>
         <module>../../VIVO/api</module>      
         <module>../../VIVO/webapp</module>

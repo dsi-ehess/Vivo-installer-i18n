@@ -327,6 +327,12 @@
             <type>war</type>
         </dependency>
         <dependency>
+            <groupId>fr.ehess</groupId>
+            <artifactId>vitro-languages-webapp-fr_FR</artifactId>
+            <version>1.11.2-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
             <groupId>org.vivoweb</groupId>
             <artifactId>vitro-languages-webapp-EHESS</artifactId>
             <version>1.11.2-SNAPSHOT</version>

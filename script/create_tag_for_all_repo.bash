@@ -1,6 +1,6 @@
 #!/bin/bash -x 
-TAG_VALUE=Dev.20.11.30.001
-TAG_LABEL="Ajustement des pom pour l'intégration de fr dans Vitro_Languanges"
+TAG_VALUE=Dev.20.12.01.001
+TAG_LABEL="Vivo-languages_fr_FR: ajuster la structure de répertoire"
 GIT_RPO_HOME=`pwd`/../..
 GIT_TAG_CMD="git tag -a ${TAG_VALUE} -m \"${TAG_LABEL}\""
 
