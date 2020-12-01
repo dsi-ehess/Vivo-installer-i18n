@@ -90,12 +90,17 @@
                                     <artifactId>vivo-webapp</artifactId>
                                     <type>war</type>
                                 </overlay>
-                                <!-- Overlays for multilingual support -->
-                                <!-- <overlay> -->
-                                <!-- <groupId>org.vivoweb</groupId> -->
-                                <!-- <artifactId>vitro-languages-webapp-fr_CA</artifactId> -->
-                                <!-- <type>war</type> -->
-                                <!-- </overlay> -->
+                                Overlays for multilingual support
+                                <overlay>
+                                    <groupId>org.vivoweb</groupId>
+                                    <artifactId>vitro-languages-webapp-fr_CA</artifactId>
+                                    <type>war</type>
+                                </overlay>
+                                <overlay>
+                                    <groupId>org.vivoweb</groupId>
+                                    <artifactId>vitro-languages-webapp-fr</artifactId>
+                                    <type>war</type>
+                                </overlay>
                                 <!-- <overlay> -->
                                 <!-- <groupId>org.vivoweb</groupId> -->
                                 <!-- <artifactId>vivo-languages-webapp-fr_CA</artifactId> -->

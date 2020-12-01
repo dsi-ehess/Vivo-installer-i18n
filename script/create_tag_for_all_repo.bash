@@ -1,6 +1,6 @@
 #!/bin/bash -x 
-TAG_VALUE=Dev.20.12.01.001
-TAG_LABEL="vitro-languages-EHESS: Restructuration pour inclusion fr_FR et en_US + enlever espace-blanc dans pom.xml "
+TAG_VALUE=Dev.20.12.01.002
+TAG_LABEL="vitro-languages-fr_FR: Ajustement du nom des ArtefactIDS  "
 GIT_RPO_HOME=`pwd`/../..
 GIT_TAG_CMD="git tag -a ${TAG_VALUE} -m \"${TAG_LABEL}\""
 
