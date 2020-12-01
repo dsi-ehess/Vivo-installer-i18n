@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.vivoweb</groupId>
-    <artifactId>vivo-installer-i18n</artifactId>
+    <artifactId>vivo-installer-EHESS</artifactId>
     <version>1.11.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>VIVO Installer for i18n</name>
+    <name>VIVO Installer for EHESS</name>
     <developers>
         <developer>
             <name>Michel Héon PhD</name>

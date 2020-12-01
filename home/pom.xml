@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>vivo-installer-home-i18n</artifactId>
+    <artifactId>vivo-installer-home-EHESS</artifactId>
     <groupId>org.vivoweb</groupId>
     <version>1.11.2-SNAPSHOT</version>
 
@@ -11,12 +11,12 @@
 
     <parent>
         <groupId>org.vivoweb</groupId>
-        <artifactId>vivo-installer-i18n</artifactId>
+        <artifactId>vivo-installer-EHESS</artifactId>
         <version>1.11.2-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
-    <name>Vitro Install Home for i18n</name>
+    <name>Vitro Install Home for EHESS</name>
 
     <properties>
         <default-theme>vitro</default-theme>
