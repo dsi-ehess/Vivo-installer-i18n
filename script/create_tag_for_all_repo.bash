@@ -1,6 +1,6 @@
 #!/bin/bash -x 
-TAG_VALUE=Dev.20.12.02.002
-TAG_LABEL="VIVO-languages_fr_FR: Creating directory structure for fr_FR"
+TAG_VALUE=Dev.20.12.02.003
+TAG_LABEL="VIVO-languages-EHESS: Creating directory structure for fr_FR and en_US + Minor adjustment for vitro-languanges-EHESS"
 GIT_RPO_HOME=`pwd`/../..
 GIT_TAG_CMD="git tag -a ${TAG_VALUE} -m \"${TAG_LABEL}\""
 

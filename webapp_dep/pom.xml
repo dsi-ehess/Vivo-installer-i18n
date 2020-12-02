@@ -4,11 +4,11 @@
     xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.vivoweb</groupId>
+        <groupId>fr.ehess</groupId>
         <artifactId>vivo-installer-EHESS</artifactId>
         <version>1.11.2-SNAPSHOT</version>
     </parent>
-    <groupId>org.vivoweb</groupId>
+    <groupId>fr.ehess</groupId>
     <artifactId>webapp_dep</artifactId>
     <version>1.11.2-SNAPSHOT</version>
     <name>VIVO WebApp Install dependencies for EHESS</name>
@@ -60,7 +60,8 @@
         <module>../../VIVO-languages/de_DE/webapp</module>
         <module>../../VIVO-languages/es/webapp</module>
         <module>../../VIVO-languages/pt_BR/webapp</module>
-        <module>../../VIVO-languages-EHESS/webapp</module>
+        <module>../../VIVO-languages-EHESS/fr_FR/webapp</module>
+        <module>../../VIVO-languages-EHESS/en_US/webapp</module>
         <module>../../Vitro-fr_FR/webapp</module>
         <module>../../Vitro-EHESS/webapp</module>
         <module>../../VIVO-fr_FR/api</module>

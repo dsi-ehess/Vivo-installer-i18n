@@ -4,13 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>vivo-installer-home-EHESS</artifactId>
-    <groupId>org.vivoweb</groupId>
-    <version>1.11.2-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
     <parent>
-        <groupId>org.vivoweb</groupId>
+        <groupId>fr.ehess</groupId>
         <artifactId>vivo-installer-EHESS</artifactId>
         <version>1.11.2-SNAPSHOT</version>
         <relativePath>..</relativePath>
@@ -36,7 +34,8 @@
         <module>../../VIVO-languages/fr_CA/home</module>
         <module>../../VIVO-languages/fr/home</module>
         <module>../../VIVO-languages-fr_FR/fr_FR/home</module>
-        <module>../../VIVO-languages-EHESS/home</module>
+        <module>../../VIVO-languages-EHESS/en_US/home</module>
+        <module>../../VIVO-languages-EHESS/fr_FR/home</module>
     </modules>
 
     <profiles>
@@ -195,10 +194,18 @@
             <type>tar.gz</type>
         </dependency>
         <dependency>
-            <groupId>org.vivoweb</groupId>
-            <artifactId>vivo-languages-home-EHESS</artifactId>
+            <groupId>fr.ehess</groupId>
+            <artifactId>vivo-languages-EHESS-home-fr_FR</artifactId>
+            <version>1.11.2-SNAPSHOT</version>
+            <type>tar.gz</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.ehess</groupId>
+            <artifactId>vivo-languages-EHESS-home-en_US</artifactId>
             <version>1.11.2-SNAPSHOT</version>
             <type>tar.gz</type>
         </dependency>
     </dependencies>
+    <version>1.11.2-SNAPSHOT</version>
+    <groupId>fr.ehess</groupId>
 </project>
