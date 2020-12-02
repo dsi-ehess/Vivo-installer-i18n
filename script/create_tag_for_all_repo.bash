@@ -1,6 +1,6 @@
 #!/bin/bash -x 
-TAG_VALUE=Dev.20.12.02.001
-TAG_LABEL="VIVO-languages: Moving fr_FR under fr and adding _fr ontologies from fr_CA"
+TAG_VALUE=Dev.20.12.02.002
+TAG_LABEL="VIVO-languages_fr_FR: Creating directory structure for fr_FR"
 GIT_RPO_HOME=`pwd`/../..
 GIT_TAG_CMD="git tag -a ${TAG_VALUE} -m \"${TAG_LABEL}\""
 
@@ -10,19 +10,5 @@ do
     echo $rep
     cd ${GIT_RPO_HOME}/$repo
     git tag -a ${TAG_VALUE} -m "${TAG_LABEL}"
-    git tag
+    git push -f origin --tag
 done
-# cd ${GIT_RPO_HOME}/Vitro; eval ${GIT_TAG_CMD}
-# cd ${GIT_RPO_HOME}/Vitro-fr_FR; eval ${GIT_TAG_CMD}
-# cd ${GIT_RPO_HOME}/Vitro-languages-EHESS; eval ${GIT_TAG_CMD}
-# cd ${GIT_RPO_HOME}/VIVO; eval ${GIT_TAG_CMD}
-# cd ${GIT_RPO_HOME}/VIVO-fr_FR; eval ${GIT_TAG_CMD}
-# cd ${GIT_RPO_HOME}/VIVO-languages; eval ${GIT_TAG_CMD}
-# cd ${GIT_RPO_HOME}/VIVO-languages-fr_FR; eval ${GIT_TAG_CMD}
-# cd ${GIT_RPO_HOME}/Vitro-EHESS; eval ${GIT_TAG_CMD}
-# cd ${GIT_RPO_HOME}/Vitro-languages; eval ${GIT_TAG_CMD}
-# cd ${GIT_RPO_HOME}/Vitro-languages_fr_FR; eval ${GIT_TAG_CMD}
-# cd ${GIT_RPO_HOME}/VIVO-EHESS; eval ${GIT_TAG_CMD}
-# cd ${GIT_RPO_HOME}/Vivo-installer-i18n; eval ${GIT_TAG_CMD}
-# cd ${GIT_RPO_HOME}/VIVO-languages-EHESS; eval ${GIT_TAG_CMD}
-# cd ${GIT_RPO_HOME}/VIVO-Sample-Data; eval ${GIT_TAG_CMD}
