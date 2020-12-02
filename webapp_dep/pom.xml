@@ -53,7 +53,7 @@
         <module>../../VIVO/webapp</module>
         <module>../../VIVO-languages/core/webapp</module>
         <module>../../VIVO-languages/fr_CA/webapp</module>
-        <module>../../VIVO-languages/fr_FR/webapp</module>
+        <module>../../VIVO-languages/fr/webapp</module>
         <module>../../VIVO-languages/en_US/webapp</module>
         <module>../../VIVO-languages/en_CA/webapp</module>
         <module>../../VIVO-languages/de_DE/webapp</module>

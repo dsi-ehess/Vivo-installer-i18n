@@ -1,6 +1,6 @@
 #!/bin/bash -x 
-TAG_VALUE=Dev.20.12.01.002
-TAG_LABEL="vitro-languages-fr_FR: Ajustement du nom des ArtefactIDS  "
+TAG_VALUE=Dev.20.12.02.001
+TAG_LABEL="VIVO-languages: Moving fr_FR under fr and adding _fr ontologies from fr_CA"
 GIT_RPO_HOME=`pwd`/../..
 GIT_TAG_CMD="git tag -a ${TAG_VALUE} -m \"${TAG_LABEL}\""
 
