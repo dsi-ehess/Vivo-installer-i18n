@@ -1,5 +1,6 @@
 #!bin/bash
 BRANCHE=ehess-dev
+git clone --single-branch --branch ${BRANCHE} https://github.com/dsi-ehess/Vivo-installer-i18n
 git clone --single-branch --branch ${BRANCHE} https://github.com/dsi-ehess/Vitro.git
 git clone --single-branch --branch ${BRANCHE} https://github.com/dsi-ehess/Vitro-fr_FR.git
 git clone --single-branch --branch ${BRANCHE} https://github.com/dsi-ehess/Vitro-EHESS.git
